@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MailActivity"
+    android:background="#553931"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/reciEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To: roypriyankajaya@gmail.com"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="20dp"
+                android:textSize="22dp"
+                android:textColorHint="#FFF"
+                android:textColor="#FFF"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/subjectEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subject"
+                android:inputType="text"
+                android:layout_marginTop="90dp"
+                android:textColorHint="#FFF"
+                android:textColor="#FFF"
+                > </EditText>
+
+            <EditText
+                android:id="@+id/messageEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your message here..."
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:minHeight="260dp"
+                android:layout_marginTop="165dp"
+                android:textColor="#FFF"
+                android:gravity="start"
+
+                > </EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="445dp">
+
+                <Button
+                    android:id="@+id/sendEmail"
+                    android:textColor="#FFF"
+                    android:text="Send Email"
+                    android:layout_gravity="end"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    > </Button>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

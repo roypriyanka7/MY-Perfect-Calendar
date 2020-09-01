@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frag_cal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bwood"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="220dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/myself">
+                </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="240dp"
+                android:layout_marginEnd="0dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Hey there! I'm Priyanka Roy- the developer and designer of this app. We will bring the best updates as required. And for that, we will need your opinions and ratings. Don't hesitate to leave your comments on any of our email addresses. Here is mine:"
+                android:textColor="#FFF"
+                android:textSize="20dp"> </TextView>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="450dp"
+                    android:layout_marginBottom="20dp"
+                    android:paddingLeft="10dp"
+                    android:text="👉 roypriyankajaya@gmail.com"
+                    android:textColor="#FFF"
+                    android:textSize="23dp"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="210dp"
+                    android:layout_marginTop="510dp"
+                    android:src="@drawable/fahim_srijonfin">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="700dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="I am Fahim Srijon- the second developer. Hope you are enjoying our app. If you find any trouble, mail us anytime. We will always be here to answer you. Email address:"
+                    android:textColor="#FFF"
+                    android:textSize="20dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="860dp"
+                    android:paddingLeft="10dp"
+                    android:text="👉 fahimsrijon@gmail.com"
+                    android:textColor="#FFF"
+                    android:textSize="23dp"
+                    android:textStyle="bold">
+                </TextView>
+
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="930dp"
+                    android:src="@drawable/nahid_vaifin">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1100dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Hey, It’s Nahid Khandaker- the tester! Which part of this app attracts you most? Which one needs to be modified? Do not hesitate to share your feedback with us."
+                    android:textColor="#FFF"
+                    android:textSize="20dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1245dp"
+                    android:layout_marginBottom="20dp"
+                    android:paddingLeft="10dp"
+                    android:text="👉 nahidkhandakar3@gmail.com\n\n"
+                    android:textColor="#FFF"
+                    android:textSize="23dp"
+                    android:textStyle="bold">
+                </TextView>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

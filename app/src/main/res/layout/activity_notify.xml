@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#553931"
+    android:layout_height="match_parent"
+    tools:context=".NotifyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:hint="Enter your task (18 characters at max)"
+                android:textColorHint="#FFF"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                android:maxLength="20"
+                android:digits="1234567890QWERTYUIOPLKJHGFDSAZXCVBNM
+                 qwertyuioplkjhgfdsazxcvbnm?-().,/"
+                />
+            <TimePicker
+                android:id="@+id/timePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="370dp"
+                android:layout_marginTop="120dp"
+                android:numbersSelectorColor="#553949"
+                android:amPmTextColor="#533931"
+                > </TimePicker>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="510dp"
+                android:layout_marginBottom="30dp"
+                >
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="wrap_content"
+                    android:text="Save"
+                    android:textColor="#FFF"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content">
+                </Button>
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:text="Cancel"
+                    android:textSize="20dp"
+                    android:textColor="#FFF"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:layout_height="wrap_content">
+                </Button>
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

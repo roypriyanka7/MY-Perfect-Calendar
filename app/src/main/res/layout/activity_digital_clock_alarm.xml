@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#553931"
+    tools:context=".DigitalClockAlarmActivity">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edOne"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:textColorHint="#FFF"
+        android:layout_height="wrap_content"
+        android:hint="Hour in 24 hours format"
+        android:textColor="#FFF"
+        android:digits="1234567890"
+        android:maxLength="24"
+
+        > </EditText>
+
+    <EditText
+        android:id="@+id/edTwo"
+        android:layout_marginTop="160dp"
+        android:textColorHint="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minute"
+        android:textColor="#FFF"
+        android:digits="1234567890"
+        android:maxLength="59"
+        > </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/alarmBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="Set Alarm"
+                android:textColor="#FFF">
+            </Button>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

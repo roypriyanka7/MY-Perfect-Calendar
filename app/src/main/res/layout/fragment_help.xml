@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bwood"
+    android:id="@+id/frag_help"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="40dp">
+
+                <TextView
+                    android:id="@+id/myDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="For further help!!"
+                    android:textColor="#FFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="260dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Contact Us   👉"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#FFF"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    > </TextView>
+
+
+                <Button
+                    android:id="@+id/mail"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/email"
+                    > </Button>
+
+                > </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="370dp"
+                android:layout_marginBottom="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Description  👉"
+                    android:textColor="#FFF"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:textSize="27dp"
+                    android:layout_marginLeft="30dp"
+                    > </TextView>
+
+
+                <Button
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="📃"
+                    android:textSize="70dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    > </Button>
+
+
+                > </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="520dp"
+                android:layout_marginBottom="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/link"
+                    android:background="#B59898"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="22dp"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:text="You can also find us on 👇\n\nhttps://github.com/priyan-2020?tab=projects"
+                    android:paddingLeft="30dp"
+                    android:textColor="#000"
+                    > </TextView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    </LinearLayout>

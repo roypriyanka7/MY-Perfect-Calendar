@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/description"
+    tools:context=".DescriptionActivity"
+    android:background="@drawable/bwood">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+          <TextView
+              android:id="@+id/tittleWindow"
+              android:layout_height="50dp"
+             android:layout_width="match_parent"
+              android:textSize="30dp"
+              android:layout_marginTop="45dp"
+              android:textColor="#FFF" > </TextView>
+
+            <TextView
+                android:id="@+id/messageWindow"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="18dp"
+                android:textColor="#FFF"
+                android:layout_below="@id/tittleWindow"> </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:id="@+id/backhelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" back to help desk "
+                    android:background="#68473D"
+                    android:textColor="#FFF"
+                    > </Button>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
